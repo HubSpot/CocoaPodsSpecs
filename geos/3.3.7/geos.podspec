@@ -7,7 +7,7 @@ Pod::Spec.new do |s|
 		    :file => "COPYING" }
   s.author	= { "Yury Bychkov" => "me@yury.ca",
 		    "Martin Davis" => "mbdavis@refractions.net" }
-  s.source	= { :svn => "http://svn.osgeo.org/geos", :tag => '3.3.7' }
+  s.source	= { :svn => "https://svn.osgeo.org/geos", :tag => '3.3.7' }
 
   $ver_info =  { "@VERSION@" => "3.3.7",
 		"@VERSION_MAJOR@" => "3",
