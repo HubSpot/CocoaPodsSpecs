@@ -16,7 +16,7 @@ As of May 2008 PROJ.4 has become part of the  MetaCRS project, a confederation o
 		    :file => "proj/COPYING" }
   s.author	= { "Frank Warmerdam" => "warmerdam@pobox.com",
 		    "Gerald Evenden" => "noreply@usgs.gov" }
-  s.source	= { :svn => "http://svn.osgeo.org/metacrs/proj", :tag => '4.8.0' }
+  s.source	= { :svn => "https://svn.osgeo.org/metacrs/proj", :tag => '4.8.0' }
 
   # gross hack to make this work with AFNetworking
   s.compiler_flags = '-D_SYSTEMCONFIGURATION_H -D__MOBILECORESERVICES__ -D__CORESERVICES__'
